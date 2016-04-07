@@ -49,37 +49,3 @@ while status == 1:
         print("Maze can't be solved without eyes. Or good AI scripting ;)")
     elif module == 11:
         password()
-
-
-def simple_wires():
-    return simple_wires()
-
-
-def complex_wires():
-    return complex_wires()
-
-
-def button():
-    return button()
-
-
-def simon_says():
-    return simon_says()
-
-
-def whos_on_first():
-    return whos_on_first()
-
-
-def memory():
-    return memory()
-
-
-def morse_code():
-    return morse_code()
-
-
-def password():
-    return password()
-
-
