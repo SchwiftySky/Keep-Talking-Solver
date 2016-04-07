@@ -1,5 +1,3 @@
-
-
 def password():
     print("==========================================")
     print("Password Module Solver")
