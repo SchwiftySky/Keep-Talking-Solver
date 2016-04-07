@@ -1,6 +1,3 @@
-
-
-
 def wire_sequences():
     occurrence = 1
     redwire = 0
