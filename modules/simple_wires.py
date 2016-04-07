@@ -1,7 +1,4 @@
-from run import sernum
-
-
-def simple_wires():
+def simple_wires(sernum):
     print("------------------------------------------")
     print("Simple Wires")
     print("------------------------------------------")
