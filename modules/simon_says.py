@@ -1,7 +1,4 @@
-from run import servowel
-
-
-def simon_says():
+def simon_says(servowel):
     print("------------------------------------------")
     print("Simon Says Solver")
     print("------------------------------------------")
