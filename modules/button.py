@@ -1,7 +1,4 @@
-from run import battery, frk, car
-
-
-def button():
+def button(battery, frk, car):
     state = True
     while state == True:
         print("------------------------------------------")
