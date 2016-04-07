@@ -1,7 +1,4 @@
-from run import battery, pport, sernum
-
-
-def complex_wires():
+def complex_wires(battery, pport, sernum):
     print("------------------------------------------")
     print("Complex Wires Solver")
     print("------------------------------------------")
