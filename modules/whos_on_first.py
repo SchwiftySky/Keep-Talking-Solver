@@ -1,5 +1,3 @@
-
-
 def whos_on_first():
     state = 1
     while state <= 5:
