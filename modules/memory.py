@@ -1,6 +1,3 @@
-from run import bomb_info
-
-
 def memory():
     state = True
     while state == True:
