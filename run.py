@@ -49,3 +49,4 @@ while status == 1:
         print("Maze can't be solved without eyes. Or good AI scripting ;)")
     elif module == 11:
         password()
+
