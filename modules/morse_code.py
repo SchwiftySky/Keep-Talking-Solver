@@ -1,5 +1,3 @@
-
-
 def morse_code():
     print("==========================================")
     print("Morse Code Solver")
