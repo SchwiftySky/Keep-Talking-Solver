@@ -1,12 +1,5 @@
-from simple_wires import simple_wires
-from complex_wires import complex_wires
-from wire_sequences import wire_sequences
-from button import button
-from simon_says import simon_says
-from whos_on_first import whos_on_first
-from memory import memory
-from morse_code import morse_code
-from password import password
+from modules import simple_wires, complex_wires, wire_sequences, button, simon_says, \
+    whos_on_first, memory, morse_code, password
 
 sernum = int(input("Last digit of the Serial Number: "))
 servowel = input("Does the Serial Number contain a vowel? (yes/no): ")
@@ -28,25 +21,24 @@ while status == 1:
     print("+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+")
     module = int(input("What module would you like to solve?  "))
     if module == 1:
-        simple_wires()
+        simple_wires.simple_wires(sernum)
     elif module == 2:
-        complex_wires()
+        complex_wires.complex_wires(battery, pport, sernum)
     elif module == 3:
-        wire_sequences()
+        wire_sequences.wire_sequences()
     elif module == 4:
-        button()
+        button.button(battery, frk, car)
     elif module == 5:
         print("Symbols can't be solved without eyes.")
     elif module == 6:
-        simon_says()
+        simon_says.simon_says(servowel)
     elif module == 7:
-        whos_on_first()
+        whos_on_first.whos_on_first()
     elif module == 8:
-        memory()
+        memory.memory()
     elif module == 9:
-        morse_code()
+        morse_code.morse_code()
     elif module == 10:
         print("Maze can't be solved without eyes. Or good AI scripting ;)")
     elif module == 11:
-        password()
-
+        password.password()
