@@ -3,6 +3,7 @@ def complex_wires(battery, pport, sernum):
     print("|                     COMPLEX WIRES                     |")
     print("+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+")
     print("| LED: on/off | Star: yes/no | Wire Color: red,red      |")
+    print('| Type "exit" in star to go to the main menu.           |')
     print("+-------------------------------------------------------+")
     state = 0
     while state <= 6:
@@ -14,6 +15,8 @@ def complex_wires(battery, pport, sernum):
             print("| Cut the wire.                                         |")
             print("+=======================================================+")
             state += 1
+        elif star == "exit":
+            state = 7
         elif star == "yes" and wirecolor == "red":
             print("+=======================================================+")
             print("| Cut the wire.                                         |")
