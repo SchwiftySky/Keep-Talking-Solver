@@ -83,7 +83,7 @@ def whos_on_first():
             elif x == "uh uh":
                 print(uhuh)
             elif x == "what?":
-                print(done)
+                print(whatq)
             elif x == "done":
                 print(done)
             elif x == "next":
@@ -95,217 +95,222 @@ def whos_on_first():
             elif x == "like":
                 print(like)
             else:
-                print("Didn't catch that. Double-check your spelling.")
-        print("==========================================")
-        print("Who's on first solver")
-        print("==========================================")
-        print('Type "exit" to exit.')
-        print("------------------------------------------")
-        disword = str(input("Display word: "))
+                print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+                print("| Oops! That wasn't a valid input. Try again...         |")
+                print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+
+        print("+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+")
+        print("|                    WHO'S ON FIRST                     |")
+        print("+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+")
+        print('| Type "exit" to exit.                                  |')
+        print("+-------------------------------------------------------+")
+        disword = str(input("| Display word: "))
         if disword == "ur":
-            print("==========================================")
+            print("+=======================================================+")
             print(tl)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "yes":
-            print("==========================================")
+            print("+=======================================================+")
             print(ml)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "nothing":
-            print("==========================================")
+            print("+=======================================================+")
             print(ml)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "led":
-            print("==========================================")
+            print("+=======================================================+")
             print(ml)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "they are":
-            print("==========================================")
+            print("+=======================================================+")
             print(ml)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == " ":
-            print("==========================================")
+            print("+=======================================================+")
             print(bl)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "reed":
-            print("==========================================")
+            print("+=======================================================+")
             print(bl)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "leed":
-            print("==========================================")
+            print("+=======================================================+")
             print(bl)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "they're":
-            print("==========================================")
+            print("+=======================================================+")
             print(bl)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "first":
-            print("==========================================")
+            print("+=======================================================+")
             print(tr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "okay":
-            print("==========================================")
+            print("+=======================================================+")
             print(tr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "c":
-            print("==========================================")
+            print("+=======================================================+")
             print(tr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "blank":
-            print("==========================================")
+            print("+=======================================================+")
             print(mr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "read":
-            print("==========================================")
+            print("+=======================================================+")
             print(mr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "red":
-            print("==========================================")
+            print("+=======================================================+")
             print(mr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "you":
-            print("==========================================")
+            print("+=======================================================+")
             print(mr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "your":
-            print("==========================================")
+            print("+=======================================================+")
             print(mr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "you're":
-            print("==========================================")
+            print("+=======================================================+")
             print(mr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "their":
-            print("==========================================")
+            print("+=======================================================+")
             print(mr)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "first":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "display":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "says":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "no":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "lead":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "hold on":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "you are":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "there":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "see":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "cee":
-            print("==========================================")
+            print("+=======================================================+")
             print(br)
-            print("==========================================")
-            buttword = str(input("Button word: "))
+            print("+=======================================================+")
+            buttword = str(input("| Button word: "))
             print(steptwo(buttword))
             state += 1
         elif disword == "exit":
             state = 6
         else:
-            print("Failed to find that word. Try again.")
+            print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+            print("| Oops! That wasn't a valid input. Try again...         |")
+            print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
