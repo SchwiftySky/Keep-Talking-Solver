@@ -106,3 +106,4 @@ def complex_wires(battery, pport, sernum):
             print("| Don't cut the wire.                                   |")
             print("+=======================================================+")
             state += 1
+
